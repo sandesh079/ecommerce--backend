@@ -3,7 +3,7 @@ const mongoose = require('mongoose')
 const connection = async()=> {
 
     try{
-        const isConnected  = await mongoose.connect('mongodb://127.0.0.1:27017/pcinfoDb');
+        const isConnected  = await mongoose.connect('mongodb+srv://sandeshdahal022:qfkemLO6WDmJDSFL@cluster0.i9vsjal.mongodb.net/');
         if(isConnected){
             console.log("Connected to mongodb")
         }
